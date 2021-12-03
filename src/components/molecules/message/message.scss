@@ -1,0 +1,12 @@
+@use "../../variables" as *;
+.title {
+  font-size: $XL;
+  width: 287px;
+  height: 54px;
+}
+
+.text {
+  font-size: $S;
+  width: 84px;
+  height: 36px;
+}

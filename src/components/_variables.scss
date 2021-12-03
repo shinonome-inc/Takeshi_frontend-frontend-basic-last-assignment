@@ -1,10 +1,27 @@
-$color-example: #ff0000;
-$fontsize-example: 16px;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-$white:#FFFFFF;
-$orange_bistre:#442606;
-$black:#000000;
+$white: #ffffff;
+$white_smoke: #f5f5f5;
+$gray_desertStorm: #ece9e6;
+$gray_gainsboro: #dddddd;
+$gray_nobel: #999999;
+$orange_zorba: #a19283;
+$orange_bistre: #442606;
+$black_50: rgba(0, 0, 0, 0.5);
+$black: #000000;
 
-$S:14px;
-$XL:36px;
-$L:20px;
+$XS: 12px;
+$S: 14px;
+$M: 16px;
+$L: 20px;
+$XL: 36px;
+$XXL: 40px;
+
+$fontfamily-mincho: "Noto Serif JP", serif;
+$fontfamily-gothic: "Roboto", "Noto Sans JP", sans-serif;
+
+$brakepoint-ExS: 575px;
+$brakepoint-S: 767px;
+$brakepoint-M: 991px;
+$brakepoint-L: 1199px;
+$brakepoint-ExL: 1200px;

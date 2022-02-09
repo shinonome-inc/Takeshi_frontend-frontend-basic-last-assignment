@@ -1,0 +1,32 @@
+@use "../../variables" as *;
+
+.button {
+  color: $white;
+  font-size: $S;
+  background-color: $black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+
+  width: 200px;
+  height: 55px;
+}
+.button:hover {
+  background-color: $orange_bistre;
+}
+@media (max-width: 991px) {
+  .button {
+    width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    width: 180px;
+    height: 45px;
+  }
+}
